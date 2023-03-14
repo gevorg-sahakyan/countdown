@@ -1,0 +1,17 @@
+.progress-bar-container {
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    border: 1px solid black;
+    visibility: hidden;
+}
+
+.progress-bar-container.visible {
+    visibility: visible;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #F0F0F0;
+    transition: height .1s linear;
+}

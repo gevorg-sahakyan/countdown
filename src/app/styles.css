@@ -1,0 +1,26 @@
+#root {
+  margin: 0 auto;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 200px;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  padding: 6px 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-button {
+  flex: 1;
+  margin-right: 6px;
+}
